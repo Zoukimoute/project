@@ -1,0 +1,68 @@
+[INFO] Recupération du résultat d'une requête SQL 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[INFO] Recupération du résultat d'une requête SQL 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[ERREUR-INFO] Vous n'avez pas entré d'identifiant valide pour la base de données. 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Execution d'une requête SQL 
+[INFO] Connexion ouverte 
+[EXEC] Execution de la requête DELETE FROM utilisateur WHERE ID ="2" 
+[INFO] Connexion fermée 
+[INFO] Requete exectuée avec succès
+[INFO] Execution d'une requête SQL 
+[INFO] Connexion ouverte 
+[EXEC] Execution de la requête INSERT INTO utilisateur SET Nom="DelTesta", Prenom="Fabien", Mail="lilian.annet.pro@gmail.com", Password="2303" 
+[INFO] Connexion fermée 
+[INFO] Requete exectuée avec succès
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Execution d'une requête SQL 
+[INFO] Connexion ouverte 
+[EXEC] Execution de la requête INSERT INTO utilisateur SET Nom="DelTesta", Prenom="Fabien", Mail="lilian.annet.pro@gmail.com", Password="2303" 
+[INFO] Connexion fermée 
+[INFO] Requete exectuée avec succès
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 
+[INFO] Recupération du résultat d'une requête SQL 
+[INFO] Connexion ouverte 
+[INFO] Connexion fermée 

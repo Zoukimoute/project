@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mon application ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/style.css" type="text/css">
+</head>
+<body>
+    <header class="header-section">
+        <div class="">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="./index.html"><img src="~/Content/img/logo.png" alt=""></a>
+                </div>
+                <div class="header-right">
+                    <img src="~/Content/img/icons/search.png" alt="" class"img2" class="search-trigger">
+
+                    <a href="commandes.html">  <img src="~/Content/img/icons/man.png" alt="" class="img2"> </a>
+
+                    <a href="shopping-cart.html">
+                        <img src="~/Content/img/icons/bag.png" alt="" class="img2">
+                    </a>
+
+                </div>
+                <div class="user-access">
+                    <a href="/Utilisateur/enregistrement/">S'enregistrer</a>
+                    <a href="/Utilisateur/connexion" class="in">Se connecter</a>
+                </div>
+                <nav class="main-menu mobile-menu">
+                    <ul>
+                        <li><a class="active" href="./index.html">Accueil</a></li>
+                        <li>
+                            <a href="./categories.html">Boutique</a>
+                            <ul class="sub-menu">
+                                <li><a href="product-page.html">Homme</a></li>
+                                <li><a href="product-page.html">Femme</a></li>
+                                <li><a href="product-page.html">Enfant</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Header Info Begin -->
+    <div class="header-info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="header-item">
+                        <img src="~/Content/img/icons/delivery.png" alt="">
+                        <p>Frais de port gratuit a partir de 30€</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left text-lg-center">
+                    <div class="header-item">
+                        <img src="~/Content/img/icons/voucher.png" alt="">
+                        <p>20% Code Etudiant</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-left text-xl-right">
+                    <div class="header-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        @RenderBody()
+        <hr />
+        <footer class="footer-section spad">
+            <div class="container">
+                <div class="newslatter-form">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form action="#">
+                                <input type="text" placeholder="Your email address">
+                                <button type="submit">Subscribe to our newsletter</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-widget">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Service Client</h4>
+                                <ul>
+                                    <li>Recherche</li>
+                                    <li>Politique de confidentialité</li>
+                                    <li>2019 nouveautées</li>
+                                    <li>Expédition & Livraison</li>
+                                    <li>Gallerie</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Nos Services</h4>
+                                <ul>
+                                    <li>Livraison offerte</li>
+                                    <li>Retour gratuit</li>
+                                    <li>Notre Franchise</li>
+                                    <li>Termes et Conditions</li>
+                                    <li>Politique de confidentialité</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Informations</h4>
+                                <ul>
+                                    <li>Methodes de payement</li>
+                                    <li>Délais et frais de livraison</li>
+                                    <li>Retour Produit</li>
+                                    <li>Méthodes de livraison</li>
+                                    <li>Conformité des produits</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links-warp">
+                <div class="container">
+                    <div class="social-links">
+                        <a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
+                        <a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
+                        <a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
+                        <a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
+                        <a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
+                        <a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
+                    </div>
+                </div>
+
+                <div class="container text-center pt-5">
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+
+
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+        <!-- Js Plugins -->
+        <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
+        <script src="~/Scripts/jquery.slicknav.js"></script>
+        <script src="~/Scripts/owl.carousel.min.js"></script>
+        <script src="~/Scripts/jquery.nice-select.min.js"></script>
+        <script src="~/Scripts/mixitup.min.js"></script>
+        <script src="~/Scripts/main.js"></script>
+    </div>
+
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "All";
+    @model List<E_BusinessGame.Models.Utilisateur>
+}
+
+@{
+    foreach(var utilisateur in Model)
+    {
+        <p>@utilisateur.ID</p>
+        <p>@utilisateur.Nom</p>
+        <p>@utilisateur.Prenom</p>
+        <p>@utilisateur.Email</p>
+        <p>Nombre d'article(s) dans le panier : @utilisateur.Panier.Count</p>
+    }
+}
+
+
+

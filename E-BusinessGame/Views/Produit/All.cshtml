@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "All";
+    @model List<E_BusinessGame.Models.Produit>
+}
+
+<h2>Tous les produits</h2>
+
+@{ 
+    foreach(var produit in Model)
+    {
+        <p>@produit.ID</p>
+        <p>@produit.Image</p>
+        <p>@produit.Nom</p>
+        <p>@produit.Prix</p>
+        <p>@produit.Quantite</p>
+        <form method="post" action="/Utilisateur/AjouterProduit/@produit.ID/1"><button>Ajouter au panier</button></form>
+        <hr />
+    }
+}

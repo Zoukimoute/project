@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Connexion";
+}
+
+<h2>Se connecter</h2>
+
+<form method="post" action="/Utilisateur/ConnexionForm">
+    <input type="text" name="mail" placeholder="E-mail" />
+    <input type="password" name="password" placeholder="Mot de passe" />
+    <button type="submit">S'enregistrer</button>
+</form>
+
+<h2>@ViewData["ErreurMessage"]</h2>
+

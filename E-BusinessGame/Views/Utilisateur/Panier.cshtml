@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "All";
+    @model List<E_BusinessGame.Models.Produit>
+}
+
+<h2>Mon panier</h2>
+
+@{
+    foreach (var produit in Model)
+    {
+        <p>Id du produit : @produit.ID</p>
+        <p>Image : @produit.Image</p>
+        <p>Nom : @produit.Nom</p>
+        <p>Prix :<span id="p-@produit.ID">@(produit.Prix * produit.Quantite)</span>€ </p>
+        <input value="@produit.Quantite" type="number" onchange="ChangerValeurDynamique(@produit.ID,this.value,@produit.Prix)" step="1" style="width:50px"/>
+        <hr />
+    }
+}
+
+
+<script>
+    function ChangerValeurDynamique(id,quantite,prix)
+    {
+        $.ajax({
+            url: '/Utilisateur/AjouterProduit/'+id+"/"+quantite,
+            type: 'GET',
+            dataType: 'html',
+            success: function (result) {
+                $('#tableauResultat').html(result);
+            }
+        });
+
+        $("#p-" + id).text(quantite*prix);
+        
+    }
+</script>
